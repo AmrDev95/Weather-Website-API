@@ -1,0 +1,125 @@
+:root{
+    --main-color:rgb(30,32,43);
+    --blue-color: rgb(0,154,216);
+    --background1: rgb(50,53,68);
+    --background2: rgb(38,41,54);
+}
+
+.bg-theme{
+    background-color: var(--main-color);
+}
+
+.bg-theme1{
+    background-color: var(--background1);
+}
+
+.text-yellow{
+    color: rgb(252,220,13);
+}
+
+.bg-theme2{
+    background-color: var(--background2);
+}
+
+.text-main{
+    color: var(--blue-color);
+}
+
+.w-7{
+    width: 7%;
+}
+
+.w-90{
+    width:90%;
+}
+
+.h-20{
+    height:20%;
+}
+
+.fs-10{
+    font-size: 10px;
+}
+
+.list-hover{
+    border: 2px solid transparent;
+}
+
+.z-99{
+    z-index: 9999;
+}
+
+.w-logo{
+    width:80px;
+}
+
+.list-hover:hover{
+    border: 2px solid var(--blue-color);
+    color: var(--blue-color);
+}
+
+.bg-header{
+    background-color: rgb(34,37,49);
+}
+
+.main-bg{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    /* height:80%; */
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 40vh;
+    width: 100%;
+}
+
+.data-table{
+    top:50%;
+    left:50%;
+}
+
+.w-60{
+    width:60%;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.Header{
+    background-color: rgb(45,48,61);
+}
+
+.font-main{
+    font-size: 70px;
+}
+
+footer{
+    background-color:rgb(38,41,54);
+    width: 100%;
+    padding: 50px 0px;
+
+}
+
+.circle{
+    width:40px;
+    height:40px;
+}
+
+.circle:hover{
+    background-color: #009ad8;
+}
+
+.circle:hover i{
+    color: white;
+}
+
+.navbar-collapse li{
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-collapse first{
+    margin-top: 15px !important;
+}
